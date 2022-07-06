@@ -1,0 +1,26 @@
+.buttonsList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  /* width: 200px; */
+}
+
+.feedbackItem:not(:last-child) {
+  margin-right: 20px;
+}
+
+.feedbackBtn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  transition: 200ms;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.feedbackBtn:hover,
+:focus {
+  background-color: teal;
+  color: white;
+}
